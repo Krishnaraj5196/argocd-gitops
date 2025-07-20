@@ -1,4 +1,4 @@
-apiVersion: apps/v2
+apiVersion: apps/v1.2
 kind: Deployment
 metadata:
   name: flask-app
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: krishnarajkumar97/flask-app:v2
+        image: krishnarajkumar97/flask-app:v3
         ports:
         - containerPort: 5000
