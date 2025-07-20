@@ -1,4 +1,4 @@
-apiVersion: apps/v2
+apiVersion: apps/v4
 kind: Deployment
 metadata:
   name: flask-app
